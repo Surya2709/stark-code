@@ -1,150 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 * {
-  margin: 0;
-  box-sizing: border-box;
+ 
   font-family: 'Nerko One', cursive;
 }
-:root {
-  --colour-one: #5bf5c1;
-  --colour-two: #7affd3;
-  --colour-three: #56d69f;
-  --colour-four: #1bc48c;
-  --colour-five: #05a872;
-  --colour-six: #162b24;
-  --colour-seven: #63b89b;
-  --colour-eight: #707e8d;
+
+
+
+
+.login-page {
+  max-width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
 }
-
-
-.login_form {
-  margin-top: 5%;
-  margin-left: 25%;
+.form {
+  
   position: relative;
-  border-bottom: 3px solid var(--colour-four);
-  border-right: 3px solid var(--colour-four);
-  background: var(--colour-one);
-  height: 400px;
-  width: 700px;
-  box-shadow: 10px 10px 6px 2px rgba(5, 168, 114,0.6);
-  overflow: hidden;
+  z-index: 1;
+  background: #3b4050;
+  max-width: 75%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.details {
-  position: relative;
-  background: var(--colour-two);
-  height: 400px;
-  width: 350px;
-}
-.welcome {
-  position: absolute;
-  color: var(--colour-six);
-  left: 40%;
-  top: 30%;
-}
-.wrap:nth-child(1) {
-  position: absolute;
-  top: 35%;
-  left: 20%;
-  margin: 12px;
-}
-.wrap:nth-child(2) {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  font-size: 15px;
-  margin: 12px;
-}
-.wrap:nth-child(3) {
-  position: absolute;
-  top: 75%;
-  left: 20%;
-  font-size: 15px;
-  margin: 12px;
-}
-
-.wrap:nth-child(4) {
-    position: absolute;
-    top: 68%;
-    left: 22%;
-    font-size: 15px;
-    margin: 12px;
-  }
-
-.input {
-  border: 1px solid var(--colour-three);
-  padding: 5px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  background: none;
-  box-shadow: inset 10px 10px 6px -5px rgba(26, 176, 126,1);
-}
-label {
-  color: var(--colour-eight);
-  display: block;
-}
-.button {
-  background: var(--colour-six);
-  position: absolute;
-  width: 80px;
-  top: 76%;
-  right: 10%;
-  padding: 5px;
-  font-color: var(--colour-one);
-  border-radius: 10px;
-  border: none;
-  color: white;
-}
-.button .sign {
-  color: #fff;
-  font-size: 15px;
-}
-.kitchen-logo {
-  position: absolute;
-  width: 170px;
-  top: 5%;
-  left: 63%;
-  height: 35%;
-}
-.back {
-  position: absolute;
-  top: 44%;
-  left: 56%;
-  font-size: 20px;
-}
-.log {
-  position: absolute;
-  top: 50%;
-  left: 56%;
-  font-size: 14px; 
-}
-.acc {
-  position: absolute;
-  top: 62%;
-  left: 56%;
-  font-size: 15px;
-}
-.customer {
-  position: absolute;
-  top: 72%;
-  left: 56%;
-  font-color: var(--colour-five);
-  background: var(--colour-four);
-  border-radius: 5px;
-  border: none;
-}
-.res {
-  position: absolute;
-  top: 72%;
-  left: 76%;
-  font-color: var(--colour-five);
-  background: var(--colour-four);
-  border-radius: 5px;
-  border: none;
-}
-h3 {
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
   font-size: 14px;
-  color: var(--colour-five);
-  padding: 5px;
 }
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+body {
+  background: #11134a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #11134a, #20224d);
+  background: -moz-linear-gradient(right, #11134a, #20224d);
+  background: -o-linear-gradient(right, #11134a, #20224d);
+  background: linear-gradient(to left, #11134a, #20224d);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .error{
 
