@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-style: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-dash{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+
+.button-dash-logout{
+    width: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+   
+}
+
+.brand-name {
+  color: white;
+  margin-top:-30px;
+  margin-left: 45%;
+  width:300px;
+
+}
+
+.profileicon{
+  color: white;
+  margin-right: 10px;
+  margin-top: -17px;
+  margin-left: 100px;
+
+}
+
+.username{
+  color: white;
+  margin-right: 10px;
+  margin-top: -22px;
+  margin-left: 120px;
+
+}
+
+.checkout-area{
+  background-color: grey;
+  height: 100%;
+  width: 50%;
+  margin-top: 10px;
+}

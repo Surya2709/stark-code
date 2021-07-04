@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
+}
+:root {
+  --colour-one: #5bf5c1;
+  --colour-two: #7affd3;
+  --colour-three: #56d69f;
+  --colour-four: #1bc48c;
+  --colour-five: #05a872;
+  --colour-six: #162b24;
+  --colour-seven: #63b89b;
+  --colour-eight: #707e8d;
+}
+
+
+.login_form {
+  margin-top: 5%;
+  margin-left: 25%;
+  position: relative;
+  border-bottom: 3px solid var(--colour-four);
+  border-right: 3px solid var(--colour-four);
+  background: var(--colour-one);
+  height: 400px;
+  width: 700px;
+  box-shadow: 10px 10px 6px 2px rgba(5, 168, 114,0.6);
+  overflow: hidden;
+}
+.details {
+  position: relative;
+  background: var(--colour-two);
+  height: 400px;
+  width: 350px;
+}
+.welcome {
+  position: absolute;
+  color: var(--colour-six);
+  left: 40%;
+  top: 30%;
+}
+.wrap:nth-child(1) {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  margin: 12px;
+}
+.wrap:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.wrap:nth-child(3) {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+
+.wrap:nth-child(4) {
+    position: absolute;
+    top: 68%;
+    left: 22%;
+    font-size: 15px;
+    margin: 12px;
+  }
+
+.input {
+  border: 1px solid var(--colour-three);
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+  box-shadow: inset 10px 10px 6px -5px rgba(26, 176, 126,1);
+}
+label {
+  color: var(--colour-eight);
+  display: block;
+}
+.button {
+  background: var(--colour-six);
+  position: absolute;
+  width: 80px;
+  top: 76%;
+  right: 10%;
+  padding: 5px;
+  font-color: var(--colour-one);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.button .sign {
+  color: #fff;
+  font-size: 15px;
+}
+.kitchen-logo {
+  position: absolute;
+  width: 170px;
+  top: 5%;
+  left: 63%;
+  height: 35%;
+}
+.back {
+  position: absolute;
+  top: 44%;
+  left: 56%;
+  font-size: 20px;
+}
+.log {
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  font-size: 14px; 
+}
+.acc {
+  position: absolute;
+  top: 62%;
+  left: 56%;
+  font-size: 15px;
+}
+.customer {
+  position: absolute;
+  top: 72%;
+  left: 56%;
+  font-color: var(--colour-five);
+  background: var(--colour-four);
+  border-radius: 5px;
+  border: none;
+}
+.res {
+  position: absolute;
+  top: 72%;
+  left: 76%;
+  font-color: var(--colour-five);
+  background: var(--colour-four);
+  border-radius: 5px;
+  border: none;
+}
+h3 {
+  font-size: 14px;
+  color: var(--colour-five);
+  padding: 5px;
+}
+
+.error{
+
+    color: red;
+    
+}
